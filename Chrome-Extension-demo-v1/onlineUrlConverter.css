@@ -1,0 +1,62 @@
+#input-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#input-block input {
+    width: 500px;
+    height: 28px;
+    border: 1px solid #c69967;
+    color: #000;
+    outline: #c69967;
+}
+
+#input-block button {
+    width: 50px;
+    height: 30px;
+    margin-left: 10px;
+    padding: 5px 10px;
+    color: #fff;
+    background-color: #c69967;
+    line-height: 22px;
+    border: 0px;
+    outline: none;
+    cursor: pointer;
+}
+
+#getURL-block {
+    margin-top: 10px;
+}
+
+#getURL-block-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#getURL-block-title button {
+    padding: 2.5px 5px;
+    color: #fff;
+    background-color: #c69967;
+    border: 0px;
+    outline: none;
+    cursor: pointer;
+}
+
+#goToPage {
+    width: 50px;
+    height: 30px;
+    margin-top: 20px;
+    padding: 5px 10px;
+    color: #fff;
+    background-color: #c69967;
+    line-height: 22px;
+    border: 0px;
+    outline: none;
+    cursor: pointer;
+}
+
+#errorMessage {
+    color: red;
+}

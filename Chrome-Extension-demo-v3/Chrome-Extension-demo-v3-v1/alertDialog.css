@@ -1,0 +1,29 @@
+#alertBlock {
+  display: none;
+  width: 700px;
+  height: 250px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 250px;
+  text-align: center;
+  background-color: #fff;
+  z-index: 3;
+}
+#alertBlock.active {
+  display: block;
+}
+
+#closeButton {
+  width: 100px;
+  height: 35px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  color: #fff;
+  background-color: #000;
+  line-height: 35px;
+  text-align: center;
+  cursor: pointer;
+}

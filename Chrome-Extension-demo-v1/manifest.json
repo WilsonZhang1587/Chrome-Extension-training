@@ -1,0 +1,23 @@
+{
+  "name": "online url converter",
+  "version": "1.0",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "onlineUrlConverter.html",
+    "default_title": "online url converter"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": { 
+    "16": "images/testImage16.png",
+    "24": "images/testImage24.png",
+    "32": "images/testImage32.png",
+    "48": "images/testImage48.png",
+    "128": "images/testImage128.png" 
+  },
+  "permissions": ["tabs"]
+}
